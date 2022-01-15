@@ -48,6 +48,3 @@ class Coords(Turtle):
             self.title = "U.S. States Game"
             self.max_states = 50
         return self.data, self.states, self.image, self.resolution, self.title, self.max_states
-
-
-
