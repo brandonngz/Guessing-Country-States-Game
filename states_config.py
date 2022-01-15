@@ -38,7 +38,7 @@ class Coords(Turtle):
             self.image = "image/mexico.gif"
             self.resolution = [1414, 924]
             self.title = "Mexico States Game"
-            self.max_states = 31
+            self.max_states = 32
         elif res == 2:
             self.url = "50_states.csv"
             self.data = pandas.read_csv(self.url)
